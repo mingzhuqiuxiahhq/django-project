@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<!--
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+-->
+
+<link href="https://fonts.googleapis.com/css2?family=Corinthia&family=Zhi+Mang+Xing&display=swap" rel="stylesheet">
+
+
+
+<link rel="stylesheet" href="style.css">
+
+<html lang="en">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Zhi+Mang+Xing&display=swap');
+    </style>
+    <head>
+        <title>Hello, devslopes - learning to code with my boys</title>
+    </head>
+    <header>
+        <div class="headerLogo">
+            <h1>Meeting You</h1>
+        </div>
+    </header>
+    <body>
+        <div class="container">
+            <nav>
+                <ul class="topNav" id="dropdowniconclick">
+                    <li><a href="#Cakes">Cakes</a></li>
+                    <li><a href="#Patisserie Boxes">Patisserie Boxes</a></li>
+                    <li><a href="#AfternoonTea">Afternoon Tea</a></li>
+                    <li><a href="#FestiveOffers">Festive Offers</a></li>
+                    <li><a href="#Gifts">Gifts</a></li>
+                    <li><a href="#Specialty Coffee">Specialty Coffee</a></li>
+                    <li><a href="#StoreFinder">Store Finder</a> </li>
+                    <li><div id="ddb">
+                        <select id="Location">
+                        <option value="UK">UK</option>
+                        <option value="US">US</option>
+                        <option value="China">China</option>
+                        </select>
+                    </div></li>
+                    <li class="dropdownicon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9660;</a></li>
+                </ul>
+            </nav>
+            <script>
+                function dropdownMenu() {
+                    var x = document.getElementById("dropdowniconclick");
+                    if (x.className === "topNav"){
+                        x.className += " responsive";
+                    } else{
+                        x.className = "topNav";
+                    }
+                }
+            </script>
+
+
+            <div class="container2" id="section-1-gradient" >
+                <div class="row" >
+
+                    <div class="col-6">
+                        <div class="leftside-col">
+                            <h1 class="largeh1">Meeting You
+                            </h1>
+                        </div>
+                        <form >
+                            <div class="leftside-col">
+                                <h2 class="largeh2">Username</h2>
+                                <input class="unInput" name="UserName" type="text" placeholder="">
+                                <h2 class="largeh2">Password</h2>
+                                <input class="pwInput" name="Password" type="text" placeholder="">
+                            </div>
+
+                            <div>
+                                <br>
+                            </div>
+                        </form>
+
+                    </div>
+
+                    <div class="col-6">
+                        <br>
+                        <div class="rightside-col">
+                            <div class="videocontainer">
+    <!--                            <iframe class="firstvideo" width="460" height="250"  src="https://www.youtube.com/embed/Vom4KCdZ3TE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div class="imageContainer">
+            <div class="row">
+               <div class="col-4">
+                   <div class="box">
+                       <div class="image"> <img src="FestiveCake.jpg"></div>
+                       <label class="imageTxt">
+                            <a href="#FestiveOffers">
+                                <p>Festive Cakes & Treats</p>
+                           </a>
+                       </label>
+                   </div>
+                </div>
+                <div class="col-4">
+                    <div class="box">
+                        <div class="image"><img src="birthdayCake.jpg"> </div>
+                        <label class="imageTxt">
+                            <a href="#SpecialOccasion">     <p>Special Occasion</p>
+                            </a>
+                        </label>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="box">
+                        <div class="image"> <img src="AfternoonTea.jpg"> </div>
+                        <label class="imageTxt">
+                            <a href="#AfternoonTea">
+                                <p>Afternoon Tea</p>
+                            </a>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <button class="findoutmore">FIND OUT MORE</button>
+            </div>
+        </div>
+
+
+    <footer class="siteMainFooter">
+        <div class="row">
+            <form class="col-6">
+                <br>
+                <div class="emailaddressbar">
+                    <input type="text" placeholder="Email Address"><button class="subscription">Subscribe</button>
+                </div>
+                <br>
+            </form>
+
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-3 footerstack">
+                        <div>
+                            <h1><a href="#">Company</a></h1>
+                            <ul>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Blogs</a></li>
+                                <li><a href="#">Careers</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-3 footerstack">
+                        <div>
+                            <h1><a href="#">Company</a></h1>
+                            <ul>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Blogs</a></li>
+                                <li><a href="#">Careers</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-3 footerstack">
+                        <div>
+                            <h1><a href="#">Company</a></h1>
+                            <ul>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Blogs</a></li>
+                                <li><a href="#">Careers</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <footer class="siteSubFooter">
+
+        <hr>
+        <br>
+        <article>© 2021, Meeting You Powered by Hang Qing</article>
+        <br>
+    </footer>
+
+    </body>
+
+</html>
+
+
+
